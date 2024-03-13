@@ -39,13 +39,13 @@ function formatDate(date) {
     "Dec",
   ];
   let days = [
+    "Sunday",
     "Monday",
     "Tuesday",
     "Wednesday",
     "Thursday",
     "Friday",
     "Saturday",
-    "Sunday",
   ];
 
   let month = months[date.getMonth()];
