@@ -6,11 +6,7 @@ a {
   color: #263849;
 }
 .weather-app {
-  background: radial-gradient(
-    592px at 48.2% 50%,
-    rgba(255, 255, 249, 0.6) 0%,
-    rgb(160, 199, 254) 74.6%
-  );
+  background: linear-gradient(-225deg, #5d9fff 0%, #b8dcff 48%, #6bbbff 100%);
   max-width: 600px;
   margin: 45px auto;
   border-radius: 16px;
@@ -37,6 +33,7 @@ footer {
   width: 80%;
   font-size: 16px;
   padding: 15px 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .search-button {
   background: #263849;
@@ -46,27 +43,28 @@ footer {
   margin-left: 5px;
   border-radius: 6px;
   color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .temp {
   display: flex;
   justify-content: space-between;
 }
-.details {
-  text-align: center;
-}
+
 .temp-extra-details {
   text-align: center;
 }
 .city {
   color: #070f4e;
-  margin: 0;
-  font-size: 85px;
+  font-size: 60px;
   line-height: 48px;
-  padding: 20px 0 50px 0;
+  text-align: center;
+  padding: 0 15px 15px 15px;
+  margin: 0 10px 10px 10px;
 }
 .date-time {
-  margin: 0;
+  text-align: center;
   font-size: 16px;
+  margin: 0;
   color: rgba(39, 33, 66, 0.5);
 
   font-weight: 500;
@@ -85,8 +83,8 @@ footer {
   font-size: 26px;
 }
 .temp-icon {
-  font-size: 100px;
-  margin-right: 100px;
+  display: block;
+  margin: 0 auto;
 }
 .temp-extra-details strong {
   color: #35bcbf;
